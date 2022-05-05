@@ -1,0 +1,89 @@
+<div id="main">
+  <header>
+    <h1 id="title"><em>Map of the Soul</em> Survey Form</h1>
+    <p id="description"><em>Thank you for being an ARMY fan - we love you!</em></p>
+  </header>
+  
+  <main>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input class="full-width" type="text" id="name" placeholder="Enter your name" required>
+      
+      <label for="email" id="email-label">Email</label>
+      <input class="full-width" type="email" id="email" placeholder="Enter your email" required>
+      
+      <label for="number" id="number-label">Age (optional)</label>
+      <input class="full-width" type="number" id="number" placeholder="Age" min=10 max=100>
+      
+      <label for="role">We'd love to know you better. What best describes you?</label>
+      <select name="role" id="dropdown" class="full-width">
+        <option>Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time-job">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="fan">Just a fan</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <fieldset>
+        <legend>Would you attend another BTS concert?</legend>
+        
+        <div>
+          <input type="radio" name="attendance" value="definitely" id="definitely" checked>
+          <label for="definitely">Definitely</label>
+        </div>
+        
+        <div>
+          <input type="radio" name="attendance" value="maybe" id="maybe">
+          <label for="maybe">Maybe</label>
+        </div>
+        
+        <div>
+          <input type="radio" name="attendance" value="not-sure" id="not-sure">
+        <label for="not-sure">Not sure</label>
+        </div>
+      </fieldset>
+      
+      <label for="song">What's your favorite <em>Map of the Soul</em> song?</label>
+      <select name="song" id="song" class="full-width">
+        <option>Select an option</option>
+        <option value="pesona">Persona</option>
+        <option value="boy-with-luv">Boy With Luv</option>
+        <option value="make-it-right">Make It Right</option>
+        <option value="my-time">My Time</option>
+        <option value="black-swan">Black Swan</option>
+      </select>
+      
+      <fieldset>
+        <legend>Where should our next concert take place? (Check all that apply)</legend>
+        
+        <div>
+          <input type="checkbox" value="los-angeles" id="los-angeles">
+          <label for="los-angeles">Los Angeles</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" value="seoul" id="seoul">
+          <label for="seoul">Seoul</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" value="abu-dhabi" id="abu-dhabi">
+          <label for="abu-dhabi">Abu Dhabi</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" value="sydney" id="sydney">
+          <label for="sydney">Sydney</label>
+        </div>
+      </fieldset>
+      
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea class="full-width" name="comments" id="comments" placeholder="Enter your comments here..."></textarea>
+      
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </main>
+  
+  <footer></footer>
+</div>
